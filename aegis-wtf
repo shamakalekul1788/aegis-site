@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aegis WTF Service</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('photo_2024-05-23_10-08-04.jpg') center/cover no-repeat fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            backdrop-filter: brightness(0.7);
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.45);
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+        }
+        h1 {
+            font-size: 52px;
+            margin-bottom: 10px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.65);
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .btn {
+            margin-top: 25px;
+            padding: 18px 40px;
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+            background: linear-gradient(180deg, #ffb400, #d18b00);
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 6px 0 #8a5d00, 0 0 25px rgba(255, 193, 59, 0.6);
+            transition: all 0.2s ease;
+        }
+        .btn:active {
+            transform: translateY(3px);
+            box-shadow: 0 3px 0 #8a5d00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aegis WTF Service</h1>
+        <p>Качественная GSM Телефония</p>
+        <p>Избавим Вас от тишины в зале</p>
+        <p>Используем SIM-карты МТС</p>
+        <p>У Вас будет как исходящая так и входящая линия звонков на SIP</p>
+        <p>Выделяем на вас персонального сапорта, который принимает жалобы в течение минуты — и так же быстро их устраняет.</p>
+        <a class="btn" href="https://t.me/aegisvoip" target="_blank">Написать админу</a>
+    </div>
+</body>
+</html>
